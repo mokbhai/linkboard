@@ -1,75 +1,45 @@
 import {
-  Twitter,
   Github,
   Linkedin,
   EnvelopeFill,
-  Telegram,
-  Instagram,
-  Messenger,
-  Spotify,
-  Discord,
+Phone,
   JournalAlbum,
 } from "react-bootstrap-icons";
 
 const data: Data = {
-  title: "Frank's Linkboard",
+  title: "Mokshit Jain - Links",
   theme: "default",
   animation: {
     nameRandomizer: false,
   },
-  name: "Frank Borisjuk",
-  description: "Software Engineer",
+  name: "Mokshit Jain",
+  description: "Software Engineer Intern At Drcode ",
   links: [
     {
-      name: "Twitter",
-      url: "https://twitter.com/hangerthem",
-      icon: Twitter,
-    },
-    {
       name: "GitHub",
-      url: "https://github.com/hangerthem",
+      url: "https://github.com/mokbhai",
       icon: Github,
     },
     {
       name: "LinkedIn",
-      url: "https://www.linkedin.com/in/franti%C5%A1ek-borisjuk-022686225/",
+      url: "https://www.linkedin.com/in/mokshit-jain/",
       icon: Linkedin,
     },
     {
+      name: "Portfolio",
+      url: "https://mokshitjain.jainparichay.online/",
+      icon: JournalAlbum,
+    },
+    {
       name: "Email",
-      url: "mailto:f.borisjuk@hangerthem.com",
+      url: "mailto:mokshitjain18@gmail.com",
       icon: EnvelopeFill,
     },
     {
-      name: "Telegram",
-      url: "https://t.me/hangerthem",
-      icon: Telegram,
-    },
-    {
-      name: "Instagram",
-      url: "https://www.instagram.com/ferda_borisjuk/",
-      icon: Instagram,
-    },
-    {
-      name: "Messenger",
-      url: "https://m.me/frant.borisjukovic",
-      icon: Messenger,
-    },
-    {
-      name: "Spotify",
-      url: "https://open.spotify.com/user/jiguc8apyguwslzwptmx0e4zn",
-      icon: Spotify,
-    },
-    {
-      name: "Discord",
-      url: "https://discord.com/users/495134242825699328",
-      icon: Discord,
-    },
-    {
-      name: "Blog",
-      url: "https://blog.hangerthem.com",
-      icon: JournalAlbum,
-    },
+      name: "Phone",
+      url: "tel:+919103367481",
+      icon: Phone,
+    }
   ],
   sortByLength: true,
 };
