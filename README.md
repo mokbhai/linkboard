@@ -1,9 +1,9 @@
 # LinkBoard
 
-![GitHub Repo Size](https://img.shields.io/github/repo-size/hangerthem/linkboard)
-![GitHub Issues](https://img.shields.io/github/issues/hangerthem/linkboard)
-![GitHub Stars](https://img.shields.io/github/stars/hangerthem/linkboard)
-![GitHub Forks](https://img.shields.io/github/forks/hangerthem/linkboard)
+![GitHub Repo Size](https://img.shields.io/github/repo-size/mokbhai/linkboard)
+![GitHub Issues](https://img.shields.io/github/issues/mokbhai/linkboard)
+![GitHub Stars](https://img.shields.io/github/stars/mokbhai/linkboard)
+![GitHub Forks](https://img.shields.io/github/forks/mokbhai/linkboard)
 
 LinkBoard is a web application that allows you to create a personalized link board, similar to a bulletin board, to share your important links with others. It's a simple and customizable way to showcase your online presence.
 
@@ -19,7 +19,7 @@ LinkBoard is a web application that allows you to create a personalized link boa
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/hangerthem/LinkBoard.git
+git clone https://github.com/mokbhai/linkboard.git
 cd LinkBoard
 ```
 

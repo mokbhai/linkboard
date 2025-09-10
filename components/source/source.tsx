@@ -4,7 +4,7 @@ import { SourceContainer } from "@/components/source/sourceStyles";
 export default function Source() {
   return (
     <SourceContainer
-      href="https://github.com/hangerthem/linkboard"
+      href="https://github.com/mokbhai/linkboard"
       target="_blank"
       rel="noopener noreferrer"
     >
