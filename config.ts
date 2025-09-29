@@ -2,10 +2,10 @@ import {
   Github,
   Linkedin,
   EnvelopeFill,
-Phone,
+  Phone,
   JournalAlbum,
+  FileEarmarkPdf,
 } from "react-bootstrap-icons";
-
 const data: Data = {
   title: "Mokshit Jain - Links",
   theme: "default",
@@ -31,6 +31,11 @@ const data: Data = {
       icon: JournalAlbum,
     },
     {
+      name: "Resume",
+      url: "https://drive.google.com/file/d/1ntcqtugio0k2qZ-0D2ajdHKyLe_gkW7F/view?usp=drive_link",
+      icon: FileEarmarkPdf,
+    },
+    {
       name: "Email",
       url: "mailto:mokshitjain18@gmail.com",
       icon: EnvelopeFill,
@@ -39,7 +44,7 @@ const data: Data = {
       name: "Phone",
       url: "tel:+919103367481",
       icon: Phone,
-    }
+    },
   ],
   sortByLength: true,
 };
