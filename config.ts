@@ -32,7 +32,7 @@ const data: Data = {
     },
     {
       name: "Resume",
-      url: "https://drive.google.com/file/d/1ntcqtugio0k2qZ-0D2ajdHKyLe_gkW7F/view?usp=drive_link",
+      url: "https://drive.google.com/file/d/111vpK4qMbL6rmtLClW8phSO2PCJQZC1K/view?usp=sharing",
       icon: FileEarmarkPdf,
     },
     {
