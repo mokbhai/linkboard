@@ -34,7 +34,7 @@ export default function ResumePage() {
           }}
         ></div>
         <p style={{ marginTop: "20px", fontSize: "1.1rem", color: "#ffffff" }}>
-          If you're not redirected automatically,
+          If you&apos;re not redirected automatically,
           <br />
           <a
             href={RESUME_URL}
