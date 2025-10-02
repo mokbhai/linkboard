@@ -11,13 +11,13 @@ export const metadata: Metadata = {
   description: 'A link board, like a bulletin board, but for links.',
   authors: [
     {
-      name: 'HangerThem',
-      url: 'https://hangerthem.com',
+      name: 'Mokshit Jain',
+      url: '',
     },
   ],
   keywords: ['link', 'board', 'linkboard', 'bulletin', 'bulletin'],
-  creator: 'HangerThem',
-  publisher: 'HangerThem',
+  creator: 'MokshitJain',
+  publisher: 'MokshitJain',
 };
 
 export default function RootLayout({
