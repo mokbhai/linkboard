@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+	output: 'export',
 	compiler: {
 		styledComponents: {
 			pure: true,
@@ -12,7 +13,8 @@ const nextConfig = {
 				hostname: 'api.qrserver.com',
 				protocol: 'https',
 			}
-		]
+		],
+		unoptimized: true, // Required for static export
 	},
 };
 

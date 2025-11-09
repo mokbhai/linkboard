@@ -21,18 +21,24 @@ import Source from "@/components/source/source";
 export default function LinkBoard() {
   const [loading, setLoading] = useState(true);
   const [randomizedName, setRandomizedName] = useState(data.name);
+  const [showData, setShowData] = useState(false);
 
   useEffect(() => {
+    const isMuxit = typeof window !== 'undefined' && window.location.hostname.includes('mokshit');
+    setShowData(isMuxit);
     setLoading(false);
-    if (data.animation && data.animation?.nameRandomizer) {
-      nameRandomizer({ name: data.name, setRandomizedName });
-    }
-    if (data.sortByLength) {
-      data.links.sort((a, b) => (a.name.length > b.name.length ? 1 : -1));
+    if (isMuxit) {
+      if (data.animation && data.animation?.nameRandomizer) {
+        nameRandomizer({ name: data.name, setRandomizedName });
+      }
+      if (data.sortByLength) {
+        data.links.sort((a, b) => (a.name.length > b.name.length ? 1 : -1));
+      }
     }
   }, []);
 
   if (loading) return <Loading />;
+  if (!showData) return null;
 
   return (
     <Container>
