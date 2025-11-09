@@ -1,6 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-	output: 'export',
 	compiler: {
 		styledComponents: {
 			pure: true,
@@ -14,7 +13,6 @@ const nextConfig = {
 				protocol: 'https',
 			}
 		],
-		unoptimized: true, // Required for static export
 	},
 };
 
